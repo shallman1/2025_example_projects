@@ -1,0 +1,11 @@
+services:
+  slack-bot:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./config.ini:/app/config.ini:ro
+      - ./screenshots:/app/screenshots
+      - ./tracking_data:/app/tracking_data
+    ipc: host
+

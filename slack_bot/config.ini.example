@@ -1,0 +1,20 @@
+[iris]
+api_key = 
+api_username = 
+
+[slack]
+bot_token = 
+app_token = 
+
+[dnsdb]
+api_key =
+
+[screenshot]
+output_dir = screenshots
+
+[aws]
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+
+[freeimage]
+api_key = 
