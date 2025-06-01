@@ -1,0 +1,10 @@
+www
+mail
+ftp
+smtp
+pop
+imap
+autodiscover
+localhost
+_dmarc
+_domainkey
